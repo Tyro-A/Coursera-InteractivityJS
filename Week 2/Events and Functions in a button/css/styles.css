@@ -1,0 +1,13 @@
+button {
+  background: #010101;
+  color: white;
+  padding: 10px;
+  width: 20em;
+}
+p#demo{
+  border: 1px solid #010101;
+  padding: 10px;
+  width: 20em;
+  background: gray;
+  color: white;
+}
