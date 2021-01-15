@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comparing two inputs</title>
+	<link rel="stylesheets" href="styles.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<form>
+		<lable>Preferred email address: <input type="email" name="email1" id="email_add" required></lable><br>
+
+		<label>Repeat email address: <input type="email" name="email2" id="email_rep" required onchange="return check()"></label><br>
+
+		<input type="submit" value="Confirm Email" onclick="return check()">
+	</form>
+
+</body>
+</html>
